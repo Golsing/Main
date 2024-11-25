@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	const IMTPower = 2
+	const IMTPower = 3
 	userHeight := 1.8
 	userKg := 100.0
 	fmt.Print("Введите свой рост: ")
