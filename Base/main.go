@@ -16,9 +16,9 @@ import (
 )
 
 func main() {
-	const IMTPower = 3
-	userHeight := 1.8
-	userKg := 100.0
+	const IMTPower = 2
+	var userHeight float64
+	var userKg float64
 	fmt.Print("Введите свой рост: ")
 	fmt.Scan(&userHeight)
 	fmt.Print("Введите свой вес: ")
