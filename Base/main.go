@@ -24,6 +24,6 @@ func main() {
 	fmt.Print("Введите свой вес: ")
 	fmt.Scan(&userKg)
 	IMT := userKg / math.Pow(userHeight, IMTPower)
-	fmt.Print("Ваш индекс массы тела : ", IMT)
+	fmt.Printf("Ваш индекс массы тела : %0.f", IMT)
 
 }
